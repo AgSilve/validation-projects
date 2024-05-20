@@ -1,5 +1,5 @@
 def main():
-    password = input("Please enter new password: ")
+    password = input("Enter password: ")
     if is_valid_password(password):
         print("Valid password.")
     else:
@@ -17,22 +17,23 @@ def is_valid_password(password):
     )
 
 def check_length(password):
-    pass
+    return len(password) >= 8
 
 def has_uppercase(password):
-    pass
+    return any(char.isupper() for char in password)
 
 def has_lowercase(password):
-    pass
+    return any(char.islower() for char in password)
 
 def has_digit(password):
-    pass
+    return any(char.isdigit() for char in password)
 
 def has_special_character(password):
-    pass
+    special_characters = [',', '.', '?', '/', '!', '@', '#', '$', '%', '^', '&', '(', ')']
+    return any(char in special_characters for char in password)
 
 def no_spaces(password):
-    pass
+    return " " not in password
 
 
 if __name__ == "__main__":
