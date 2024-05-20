@@ -7,7 +7,7 @@ Welcome to my collection of validation projects! This repository contains variou
 Below is a list of the projects included in this repository. Click on the project name to navigate to its directory and find more details.
 
 1. [Password Validator](./password-validator)
-2. [Username Validator](./username-validator) (In Progress)
+2. [Username Validator](./username-validator)
 3. [Email Validator](./email-validator) (In Progress)
 4. [Credit Card Validator](./credit-card-validator) (In Progress)
 5. [License Plate Validator](./license-plate-validator) (In Progress)
