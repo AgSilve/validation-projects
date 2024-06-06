@@ -50,7 +50,7 @@ This pattern ensures that the username starts with a letter, followed by any com
 
 ```
 $ python3 username_validator.py
-Enter username: AgSilve
+Enter username: AgSpades
 Valid username.
 ```
 

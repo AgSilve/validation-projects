@@ -3,7 +3,7 @@ import re
 def main():
     email = input('Enter your email address: ')
     if is_valid_email(email):
-        print('Valid Email.')
+        print('Valid email.')
     else:
         print('Invalid email.')
 
