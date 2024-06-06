@@ -5,10 +5,11 @@ def main():
     if is_valid_email(email):
         print('Valid Email.')
     else:
-        ('Invalid email.')
+        print('Invalid email.')
 
 def is_valid_email(email):
-    pass
+    pattern = r"^[a-zA-Z0-9\.%+-]+@[a-zA-Z0-9-]+\.[a-zA-Z]{2,}$"
+    return bool(re.match(pattern, email))
 
 if __name__ == "__main__":
     main()
