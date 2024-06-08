@@ -9,7 +9,7 @@ Below is a list of the projects included in this repository. Click on the projec
 1. [Password Validator](./password-validator)
 2. [Username Validator](./username-validator)
 3. [Email Validator](./email-validator)
-4. [Credit Card Validator](./credit-card-validator) (In Progress)
+4. [Credit Card Validator](https://github.com/AgSpades/luhn-credit-card-validator)
 5. [License Plate Validator](./license-plate-validator) (In Progress)
 
 ## Project Descriptions
